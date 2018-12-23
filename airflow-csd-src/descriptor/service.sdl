@@ -279,19 +279,19 @@
         "auxConfigGenerators": [
           {
             "filename": "airflow-conf/airflow-env.sh",
-            "sourceFilename": "aux/client/airflow-env.sh"
+            "sourceFilename": "aux_client/airflow-env.sh"
           },
           {
             "filename": "airflow-conf/airflow.cfg",
-            "sourceFilename": "aux/client/airflow.cfg"
+            "sourceFilename": "aux_client/airflow.cfg"
           },
           {
             "filename": "airflow-conf/airflow_celery_settings.py",
-            "sourceFilename": "aux/client/airflow_celery_settings.py"
+            "sourceFilename": "aux_client/airflow_celery_settings.py"
           },
           {
             "filename": "airflow-conf/requirements.txt",
-            "sourceFilename": "aux/client/requirements.txt"
+            "sourceFilename": "aux_client/requirements.txt"
           }         
         ]
       }
@@ -354,19 +354,19 @@
         "auxConfigGenerators": [
           {
             "filename": "airflow-conf/airflow-env.sh",
-            "sourceFilename": "aux/client/airflow-env.sh"
+            "sourceFilename": "aux_client/airflow-env.sh"
           },
           {
             "filename": "airflow-conf/airflow.cfg",
-            "sourceFilename": "aux/client/airflow.cfg"
+            "sourceFilename": "aux_client/airflow.cfg"
           },
           {
             "filename": "airflow-conf/airflow_celery_settings.py",
-            "sourceFilename": "aux/client/airflow_celery_settings.py"
+            "sourceFilename": "aux_client/airflow_celery_settings.py"
           },
           {
             "filename": "airflow-conf/requirements.txt",
-            "sourceFilename": "aux/client/requirements.txt"
+            "sourceFilename": "aux_client/requirements.txt"
           }        
         ]
       }
@@ -434,19 +434,19 @@
         "auxConfigGenerators": [
           {
             "filename": "airflow-conf/airflow-env.sh",
-            "sourceFilename": "aux/client/airflow-env.sh"
+            "sourceFilename": "aux_client/airflow-env.sh"
           },
           {
             "filename": "airflow-conf/airflow.cfg",
-            "sourceFilename": "aux/client/airflow.cfg"
+            "sourceFilename": "aux_client/airflow.cfg"
           },
           {
             "filename": "airflow-conf/airflow_celery_settings.py",
-            "sourceFilename": "aux/client/airflow_celery_settings.py"
+            "sourceFilename": "aux_client/airflow_celery_settings.py"
           },
           {
             "filename": "airflow-conf/requirements.txt",
-            "sourceFilename": "aux/client/requirements.txt"
+            "sourceFilename": "aux_client/requirements.txt"
           }   
         ]
       }
@@ -505,19 +505,19 @@
         "auxConfigGenerators": [
           {
             "filename": "airflow-conf/airflow-env.sh",
-            "sourceFilename": "aux/client/airflow-env.sh"
+            "sourceFilename": "aux_client/airflow-env.sh"
           },
           {
             "filename": "airflow-conf/airflow.cfg",
-            "sourceFilename": "aux/client/airflow.cfg"
+            "sourceFilename": "aux_client/airflow.cfg"
           },
           {
             "filename": "airflow-conf/airflow_celery_settings.py",
-            "sourceFilename": "aux/client/airflow_celery_settings.py"
+            "sourceFilename": "aux_client/airflow_celery_settings.py"
           },
           {
             "filename": "airflow-conf/requirements.txt",
-            "sourceFilename": "aux/client/requirements.txt"
+            "sourceFilename": "aux_client/requirements.txt"
           }          
         ]
       }
