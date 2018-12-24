@@ -1,4 +1,6 @@
 #!/bin/bash
+export JAVA_HOME=/liveperson/jdk8
+export PATH=/liveperson/jdk8/bin/:$PATH
 set -x
 set -e
 
