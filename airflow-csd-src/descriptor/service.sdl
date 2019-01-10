@@ -164,7 +164,7 @@
       "configurableInWizard": "true"
     },
     {
-      "name": "WORKER__CONCURRENCY",
+      "name": "worker__concurrency",
       "label": "Worker Concurrency",
       "description": "The concurrency that will be used when starting workers with the \"airflow worker\" command. This defines the number of task instances that a worker will take, so size up your workers based on the resources on your worker box and the nature of your tasks",
       "required": "true",
