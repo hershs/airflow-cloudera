@@ -58,7 +58,8 @@ function get_anaconda_with_airflow {
   pip install apache-airflow[all]=="$AIRFLOW_VERSION"
   pip install kerberos
   pip install hdfs
-  pip install celery[redis]==3.1.17
+  #pip install celery[redis]==3.1.17
+  pip install celery==4.1.1
   pip install flower
   pip install flask-bcrypt
   /usr/bin/yes | pip uninstall snakebite
