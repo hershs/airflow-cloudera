@@ -164,8 +164,8 @@
       "configurableInWizard": "true"
     },
     {
-      "name": "celery__concurrency",
-      "label": "Celery Concurrency",
+      "name": "WORKER__CONCURRENCY",
+      "label": "Worker Concurrency",
       "description": "The concurrency that will be used when starting workers with the \"airflow worker\" command. This defines the number of task instances that a worker will take, so size up your workers based on the resources on your worker box and the nature of your tasks",
       "required": "true",
       "type": "long",
@@ -209,7 +209,7 @@
           "WEBSERVER__WEB_SERVER_HOST": "${host}",
           "WEBSERVER__WEB_SERVER_PORT": "${webserver__web_server_port}",
           "CELERY__BROKER_URL": "${celery__broker_url}",
-          "CELERY__CONCURRENCY": "${celery__concurrency}",
+          "WORKER__CONCURRENCY": "${worker__concurrency}",
           "SCHEDULER__CHILD_PROCESS_LOG_DIR": "${scheduler__child_process_log_dir}"
         }
       },
@@ -244,7 +244,7 @@
               "WEBSERVER__WEB_SERVER_HOST": "${host}",
               "WEBSERVER__WEB_SERVER_PORT": "${webserver__web_server_port}",
               "CELERY__BROKER_URL": "${celery__broker_url}",
-              "CELERY__CONCURRENCY": "${celery__concurrency}",
+              "WORKER__CONCURRENCY": "${worker__concurrency}",
               "SCHEDULER__CHILD_PROCESS_LOG_DIR": "${scheduler__child_process_log_dir}"
             }
           }
@@ -313,7 +313,7 @@
           "CELERY__BROKER_URL": "${celery__broker_url}",
           "CELERY__FLOWER_HOST": "${host}",
           "CELERY__FLOWER_PORT": "${celery__flower_port}",
-          "CELERY__CONCURRENCY": "${celery__concurrency}",
+          "WORKER__CONCURRENCY": "${worker__concurrency}",
           "SCHEDULER__CHILD_PROCESS_LOG_DIR": "${scheduler__child_process_log_dir}"
         }
       },
@@ -386,7 +386,7 @@
           "CORE__METADATA_CONN_PORT": "${core__metadata_conn_port}",
           "CORE__METADATA_CONN_DB": "${core__metadata_conn_db}",
           "CELERY__BROKER_URL": "${celery__broker_url}",
-          "CELERY__CONCURRENCY": "${celery__concurrency}",
+          "WORKER__CONCURRENCY": "${worker__concurrency}",
           "SCHEDULER__CHILD_PROCESS_LOG_DIR": "${scheduler__child_process_log_dir}",
           "WORKER__QUEUE": "${worker__queue}"
         }
@@ -466,7 +466,7 @@
           "CORE__METADATA_CONN_PORT": "${core__metadata_conn_port}",
           "CORE__METADATA_CONN_DB": "${core__metadata_conn_db}",
           "CELERY__BROKER_URL": "${celery__broker_url}",
-          "CELERY__CONCURRENCY": "${celery__concurrency}",
+          "WORKER__CONCURRENCY": "${worker__concurrency}",
           "SCHEDULER__CHILD_PROCESS_LOG_DIR": "${scheduler__child_process_log_dir}",
           "SCHEDULER__MAX_THREADS": "${scheduler__max_threads}"
         }

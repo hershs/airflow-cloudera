@@ -9,6 +9,6 @@ class CELERY_CONFIG(object):
     CELERY_ACKS_LATE = True
     BROKER_URL = configuration.get('celery', 'BROKER_URL')
     RESULT_BACKEND = configuration.get('celery', 'RESULT_BACKEND')
-    CELERYD_CONCURRENCY = configuration.get('celery', 'CELERYD_CONCURRENCY')
+    WORKER_CONCURRENCY = configuration.get('celery', 'WORKER_CONCURRENCY')
     CELERY_DEFAULT_QUEUE = configuration.get('celery', 'DEFAULT_QUEUE')
     CELERY_DEFAULT_EXCHANGE = configuration.get('celery', 'DEFAULT_QUEUE')
