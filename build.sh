@@ -19,7 +19,7 @@ anaconda_folder="Anaconda3-${ANACONDA_VERSION}"
 
 
 airflow_parcel_folder="AIRFLOW-${AIRFLOW_VERSION}"
-airflow_parcel_name="${airflow_parcel_folder}-el7.parcel"
+airflow_parcel_name="${airflow_parcel_folder}-el6.parcel"
 airflow_built_folder="${airflow_parcel_folder}_build"
 
 function build_cm_ext {
